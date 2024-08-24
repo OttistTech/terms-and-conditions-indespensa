@@ -1,0 +1,70 @@
+:root {
+    --indespensa-black: #0C0C0C;
+    --indespensa-white: #FBFBFB;
+    --indespensa-gray: #8B8A8A;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--indespensa-white);
+}
+
+main.container {
+    margin: 32px 40px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+li.terms-section {
+    margin-top: 1rem;
+}
+li.terms-section::marker {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+li.subitem::marker {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+h1, h2, h3 {
+    color: var(--indespensa-black)
+}
+
+h1 {
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+h3 {
+    margin-top: 1rem;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--indespensa-gray);
+}
+
+li.requirements {
+    padding-left: 1.5rem;
+    list-style: none;
+    color: var(--indespensa-gray);
+}
